@@ -1,0 +1,118 @@
+/* project page styles */
+.gif-wrap {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    background-color: #2a2a2a;
+    border: 2px solid #cc0000;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.gif-wrap img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 8px;
+}
+
+.gif-text,
+.gif-card-text {
+    max-width: 720px;
+}
+
+.gif-text h2,
+.gif-card-text h2 {
+    color: #cc0000;
+    margin-bottom: 15px;
+}
+
+.gif-wrap p,
+.gif-card-text p {
+    color: #ccc;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.gif-card {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    background-color: #2a2a2a;
+    border: 2px solid #cc0000;
+    border-radius: 12px;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gif-card img {
+    width: 100%;
+    max-width: 380px;
+    flex: 0 0 420px;
+    border-radius: 8px;
+}
+
+.gif-card-text,
+.gif-text {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.gif-card-text {
+    flex: 1;
+}
+
+.award-card {
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0));
+    border: 2px solid rgba(204,0,0,0.25);
+    padding: 22px;
+    border-radius: 14px;
+}
+
+.award-img-wrap {
+    flex: 0 0 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.award-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 10px 30px rgba(113, 54, 54, 0.5);
+}
+
+.award-text {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.award-text h2 {
+    color: #cc0000;
+    margin-bottom: 12px;
+}
+
+.award-text p {
+    color: #ccc;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.award-badge {
+    display: inline-block;
+    background-color: #cc0000;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
