@@ -167,20 +167,6 @@ main {
     text-transform: uppercase;
 }
 
-.main-shadow {
-    position: absolute;
-    top: 52px;
-    left: 14px;
-    font-size: 98px;
-    font-weight: 900;
-    font-style: italic;
-    font-family: 'MQueen', Arial, sans-serif;
-    color: rgba(255, 255, 255, 0.05);
-    white-space: nowrap;
-    pointer-events: none;
-    line-height: 0.9;
-    z-index: 1;
-}
 
 .main-title-wrap {
     display: inline-flex;
@@ -245,6 +231,7 @@ main {
     display: flex;
     gap: 40px;
     align-items: stretch;
+
     flex-wrap: wrap;
 }
 
@@ -262,6 +249,7 @@ main {
     min-width: 350px;
     background-color: #2a2a2a;
     border-radius: 18px;
+
     padding: 30px;
     border: 1px solid #333;
     display: flex;
