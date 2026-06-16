@@ -51,7 +51,6 @@
 .gif-card img {
     width: 100%;
     max-width: 380px;
-    flex: 0 0 420px;
     border-radius: 8px;
 }
 
@@ -108,7 +107,6 @@
 }
 
 .award-badge {
-    display: inline-block;
     background-color: #cc0000;
     color: white;
     padding: 6px 12px;
